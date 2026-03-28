@@ -149,3 +149,17 @@ document.write(table + " x 7 = " + (table * 7) + "<br>");
 document.write(table + " x 8 = " + (table * 8) + "<br>");
 document.write(table + " x 9 = " + (table * 9) + "<br>");
 document.write(table + " x 10 = " + (table * 10) + "<br>");
+
+
+// Question 6
+
+let celsius = 30;
+let fahrenheit = (celsius * 9/5) + 32;
+
+console.log(celsius + "°C is " + fahrenheit + "°F");
+
+let fTemp = 70;
+let cTemp = (fTemp - 32) * 5/9;
+
+console.log(fTemp + "°F is " + cTemp + "°C");
+

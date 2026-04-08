@@ -72,7 +72,7 @@ else{
 }
 
 // Question 7
-let time = prompt("Enter time in 24 hour format (1900):");
+let time = +prompt("Enter time in 24 hour format (1900):");
 
 if(time >=0 && time < 1200){
     console.log("AM");

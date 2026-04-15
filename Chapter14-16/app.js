@@ -1,16 +1,21 @@
 // Question 1 
-let studentNames = [];
+let studentNames = [[]];
 
-studentNames.unshift("Huma");
-studentNames.push("Ali");
-console.log(studentNames)
+// studentNames.unshift("Huma");
+// studentNames.push("Ali");
+// console.log(studentNames)
 
 // Question 2
-let student_Names = new Array();
+let Numbers = [
+    [0, 1, 2, 3]
+    [0, 1, 2, 3]
+    [0, 1, 2, 3]
+];
+for(let i =0; i <= numbers.length; i++){
+    document.write(number[i]);
+    document.write("<br/>")
+}
 
-student_Names.push("Sara")
-student_Names.push("Zara")
-console.log(student_Names);
 
 // Question 3
 let Fruits = ["Apple", "Mango", "Orange", "Grapes"];
